@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+
+<HTML>
+
+<HEAD id="PageHead"><script type="text/javascript" src="/ruxitagentjs_2fgjnqr_10094160427105824.js" data-dtconfig="rid=RID_-670347323|rpid=821584660|domain=myschoolapp.com|reportUrl=/api/rb_pji66469|doNotDetect=mdw,scr,clk,dcl,kyu,mup,kyd|tp=500,50,0,1"></script><link rel="stylesheet" type="text/css" href="/podium/WebResource.axd?d=WX9c00g0BYA7GY06NSRpnljL6JZPyowdP7m27GBLanO4mLk0OYo-f42Bq0YCp6ysWR5bKFgrElZq3sbyGExlu8Effc0J7zQj4hf3xF8TwWz8V9wy7LIpBsrHT8VhQZxR0&t=636009027440000000" /> 
+
+<link rel="stylesheet" type="text/css" href="//common.myschoolapp.com/ftpimages/999/podium/libs/p3-bridge/p3-bridge.css?v=11.6.1.17" /> 
+
+<link rel="stylesheet" type="text/css" href="//common.myschoolapp.com/ftpimages/999/podium/libs/p3-bridge/p3-bridge-cust.css?v=11.6.1.17" /> 
+
+<link rel="stylesheet" type="text/css" href="/app/src/css/p3.__layout.css?v=11.6.1.17" /><link rel="stylesheet" type="text/css" href="//common.myschoolapp.com/ftpimages/999/podium/libs/p3-bridge/p3-bridge-framework-2.0.0.css?v=11.6.1.17" /><link rel="stylesheet" type="text/css" href="/app/src/css/p3._global.css?v=11.6.1.17" /><link rel="stylesheet" type="text/css" href="/app/src/css/p3.bootstrap.css?v=11.6.1.17" /><link rel="stylesheet" type="text/css" href="/app/src/css/p3.responsive.css?v=11.6.1.17" /><link rel="stylesheet" type="text/css" href="/app/src/css/p3.icon.css?v=11.6.1.17" /><link rel="stylesheet" type="text/css" href="//common.myschoolapp.com/ftpimages/999/podium/libs/skylo/skylo.css?v=11.6.1.17" /> 
+
+<STYLE> 
+
+HTML, BODY, FORM {height:auto !important;background-color: #fff !important;background-image: none !important;background: none !important;} 
+
+DIV {-moz-box-sizing:border-box; box-sizing:border-box; -webkit-box-sizing:border-box;} 
+
+#app { height: 260px; } 
+
+.sitepg DIV, .pd3Find input, .pd3Find A {-moz-box-sizing:border-box; box-sizing:border-box; -webkit-box-sizing:border-box;} 
+
+.sortplaceholder {background-color:#f1f1f1;border:1px dotted #c1c1c1;height:30px;margin:5px;} 
+
+</STYLE> 
+
+<script type="text/javascript">var bcPlayerData= {playerId:'640545887001',playerKey:'AQ~~,AAAAlDPzRgk~,8iWcJRfVffSYVZVtE8eVyhUTSN_VfO6M" /'};</script><!-- BEGIN: GoogleAnalytics --> 
+
+<script type="text/javascript"> 
+
+var _gaq = _gaq || []; 
+
+_gaq.push(['_setAccount', 'UA-3783101-2']); 
+
+_gaq.push(['_trackPageview']); 
+
+(function() { 
+
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+
+})(); 
+
+</script> 
+
+<!-- END: GoogleAnalytics --> 
+
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title> 
+
+Georgetown Day School ~ Manage Roster 
+
+</title></HEAD>
+
+<!-- Main -->
+
+<body id="PageBody" rightmargin="0" topmargin="0" bottommargin="0" leftmargin="0">
+
+<form method="post" action="" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1" class="mp-pusher"> 
+
+<div class="aspNetHidden"> 
+
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" /> 
+
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" /> 
+
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" /> 
+
+</div> 
+
+
+
+<script type="text/javascript"> 
+
+//<![CDATA[ 
+
+var theForm = document.forms['Form1']; 
+
+if (!theForm) { 
+
+theForm = document.Form1; 
+
+} 
+
+function __doPostBack(eventTarget, eventArgument) { 
+
+if (!theForm.onsubmit || (theForm.onsubmit() != false)) { 
+
+theForm.__EVENTTARGET.value = eventTarget; 
+
+theForm.__EVENTARGUMENT.value = eventArgument; 
+
+theForm.submit(); 
+
+} 
+
+} 
+
+//]]> 
+
+</script> 
+
+
+
+
+
+<script src="/podium/WebResource.axd?d=WPN_Tbvn_gHoVS-7RVfBsllGuFD4UlwRfPmQZZeLb-COO4Hp6-JMBswDioABSn5KJfMKy-n1TBSUG5iwupkS0hDG7ZjdBx20RnAZpxCQ0s01&amp;t=635792883671809273" type="text/javascript"></script> 
+
+
+
+
+
+<script src="//common.myschoolapp.com/ftpimages/999/podium/libs/jquery/1.7.1/jquery-1.7.1.min.js" type="text/javascript"></script> 
+
+<script src="/podium/WebResource.axd?d=FJOS4xqzVJjVFzUeAAzAKAtjwUDhKs0oGcz9OnZl3PZnP3vDv2FWNpghNs7zbiBYbCkvDP6tfthi55pnx7eeeNmUwwGismYJzEpFsX7RlWitUPWICeBe9y-9IxF5i3gV0&amp;t=636009027440000000" type="text/javascript"></script> 
+
+<script src="//common.myschoolapp.com/ftpimages/999/podium/libs/headJs/1.0.3.cd/head.min.js" type="text/javascript"></script> 
+
+<script src="//common.myschoolapp.com/ftpimages/999/podium/libs/jquery-pdsearch/jquery.pdsearch.js" type="text/javascript"></script> 
+
+<script type="text/javascript"> 
+
+//<![CDATA[ 
+
+$(document).ready(function(){pdChangeCheckInit(0,0)});//]]> 
+
+</script> 
+
+
+
+<script src="/podium/WebResource.axd?d=b119mRMJgvxOT9ldQemiVOlNKY8cJv46O6GoEUZ4oqnacJ8GMTyb_exfQYsmJccev5n6PWSrl-B9jtjuM7VgSC2VS8pPCJbHRoFB3_8INm_m5PVuIHgvxfApAmTb7VCp0&amp;t=636009027440000000" type="text/javascript"></script> 
+
+<script src="/podium/WebResource.axd?d=RLHFHijHtiDUFAMm9NRHG20qiUEj8IBSXaxlrPm7VzTd9himExBiAzItIThY1lJrv5CIF8bMROH-dZTVr6epcXiWjTYtgGKBE9kYz3xEJaA1&amp;t=635792883671809273" type="text/javascript"></script> 
+
+<script type="text/javascript"> 
+
+//<![CDATA[ 
+
+function WebForm_OnSubmit() { 
+
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false; 
+
+return true; 
+
+} 
+
+//]]> 
+
+</script> 
+
+
+
+<div class="aspNetHidden"> 
+
+
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FC13F448" /> 
+
+</div>
+
+
+
+<script type="text/javascript">var pdGlobal = {"schoolId" : "416", "schoolName" : "Georgetown Day School", "schoolDateTime" : "6/8/2016 11:15:35 AM", "currentPageLevel" : 1, "userLoggedIn" : true, "loginBoxMode" : "Collapsed", "currentPages" : [{"id" : 3002, "parentId" : 0, "title" : "Manage Roster", "titleImg" : "", "url" : "__pdL('3002','Manage Roster', '1', '', '', 'True', '0', '', 'default.aspx')", "type" : "application" }], "customUrls" : [{"id" : 128687, "url" : "/givingdocs" }, {"id" : 130155, "url" : "/librarydatabases" }, {"id" : 131194, "url" : "/off_campus_resources" }, {"id" : 122940, "url" : "/seniors" }, {"id" : 125350, "url" : "/collegecounseling-SAT-ACT" }, {"id" : 129595, "url" : "/collegecounselingFAQs" }, {"id" : 130155, "url" : "/librarydatabases" }, {"id" : 131194, "url" : "/off_campus_resources" }, {"id" : 123564, "url" : "/hr" }, {"id" : 128687, "url" : "/givingdocs" }, {"id" : 130155, "url" : "/librarydatabases" }, {"id" : 131194, "url" : "/off_campus_resources" }, {"id" : 121243, "url" : "/faculty_staff_directory" }, {"id" : 121244, "url" : "/employment" }, {"id" : 122734, "url" : "/admissions" }, {"id" : 122737, "url" : "/academics_highschool" }, {"id" : 122739, "url" : "/admissions_calendar" }, {"id" : 122751, "url" : "/financialaid" }, {"id" : 122876, "url" : "/academics_lowerschool" }, {"id" : 122877, "url" : "/academics_middleschool" }, {"id" : 122879, "url" : "/arts_overview" }, {"id" : 122880, "url" : "/music" }, {"id" : 122881, "url" : "/theater" }, {"id" : 122882, "url" : "/visual_arts" }, {"id" : 122884, "url" : "/athletics_mission" }, {"id" : 122886, "url" : "/teamschedule" }, {"id" : 122889, "url" : "/college_counseling" }, {"id" : 122897, "url" : "/community_service" }, {"id" : 122898, "url" : "/HS_vol_opps" }, {"id" : 122899, "url" : "/HS_service_clubs" }, {"id" : 122900, "url" : "/OLD_HS_Guidelines" }, {"id" : 122902, "url" : "/gds_library" }, {"id" : 122906, "url" : "/vision_mission" }, {"id" : 122907, "url" : "/equityprograms" }, {"id" : 122909, "url" : "/asp" }, {"id" : 122910, "url" : "/asp_offerings" }, {"id" : 122912, "url" : "/camps_classes" }, {"id" : 122914, "url" : "/adultclasses" }, {"id" : 122934, "url" : "/suggested_courseofstudy" }, {"id" : 122948, "url" : "/annual_fund" }, {"id" : 122949, "url" : "/online_giving" }, {"id" : 123136, "url" : "/giving_at_GDS" }, {"id" : 123137, "url" : "/specialevents" }, {"id" : 123258, "url" : "/ways_to_give" }, {"id" : 123493, "url" : "/academics" }, {"id" : 123585, "url" : "/equitycollaborative" }, {"id" : 123709, "url" : "/breakcamp" }, {"id" : 123711, "url" : "/summer_programs" }, {"id" : 124218, "url" : "/board" }, {"id" : 124308, "url" : "/teststore" }, {"id" : 124321, "url" : "/asp_policies" }, {"id" : 124465, "url" : "/for_parents" }, {"id" : 124501, "url" : "/health" }, {"id" : 125096, "url" : "/college_counseling_programs" }, {"id" : 125122, "url" : "/psa" }, {"id" : 125129, "url" : "/meet_team" }, {"id" : 125231, "url" : "/publications" }, {"id" : 126025, "url" : "/DC_college_programs" }, {"id" : 128891, "url" : "/stockgifts" }, {"id" : 129056, "url" : "/MSservice" }, {"id" : 129080, "url" : "/psavolunteerresources" }, {"id" : 129162, "url" : "/hs" }, {"id" : 129765, "url" : "/musci_HSchoral" }, {"id" : 129874, "url" : "/HS_library" }, {"id" : 130055, "url" : "/news" }, {"id" : 130194, "url" : "/LMS_library" }, {"id" : 130814, "url" : "/dance" }, {"id" : 130817, "url" : "/technology" }, {"id" : 133513, "url" : "/hscommunityservice" }, {"id" : 133514, "url" : "/HS_service-learning" }, {"id" : 133672, "url" : "/HS_service_trips" }, {"id" : 133974, "url" : "/athletics" }, {"id" : 134154, "url" : "/athletics_opponents_info" }, {"id" : 134228, "url" : "/lms" }, {"id" : 134909, "url" : "/technology_LS" }, {"id" : 134910, "url" : "/technology_MS" }, {"id" : 134911, "url" : "/technology_HS" }, {"id" : 134961, "url" : "/hopper_tutorial" }, {"id" : 135570, "url" : "/LSservice" }, {"id" : 136766, "url" : "/parent_TechEd" }, {"id" : 138182, "url" : "/augurbit" }, {"id" : 139892, "url" : "/gap_year_info" }, {"id" : 141983, "url" : "/testpage" }, {"id" : 144047, "url" : "/parented" }, {"id" : 147751, "url" : "/high_school" }, {"id" : 148523, "url" : "/AugurBitFeatures" }, {"id" : 148901, "url" : "/seniorgift" }, {"id" : 150458, "url" : "/fundascholargift" }, {"id" : 151215, "url" : "/servicefair" }, {"id" : 151914, "url" : "/middle_school" }, {"id" : 155534, "url" : "/yearbook" }, {"id" : 156630, "url" : "/testpage100" }, {"id" : 156683, "url" : "/gdsvoices" }, {"id" : 157065, "url" : "/schoolstore" }, {"id" : 158541, "url" : "/gdsrocks" }, {"id" : 158936, "url" : "/PolicyInstitute" }, {"id" : 159722, "url" : "/debatefund" }, {"id" : 160775, "url" : "/health_wellness" }, {"id" : 162585, "url" : "/welcome" }, {"id" : 163227, "url" : "/planning" }, {"id" : 163390, "url" : "/7thgradecommunityservice" }, {"id" : 163391, "url" : "/8thgradecommunityservice" }, {"id" : 163441, "url" : "/hsgraduation" }, {"id" : 163442, "url" : "/8thgradegift" }, {"id" : 163538, "url" : "/mssports" }, {"id" : 163631, "url" : "/advancement" }, {"id" : 166830, "url" : "/storecards" }, {"id" : 167380, "url" : "/communitiesofrespect" }, {"id" : 168424, "url" : "/theater_season" }, {"id" : 168455, "url" : "/crucible" }, {"id" : 168874, "url" : "/planningtimeline" }, {"id" : 168925, "url" : "/cooperlecture" }, {"id" : 168974, "url" : "/gdsmarchmadness" }, {"id" : 170290, "url" : "/winter_one-acts" }, {"id" : 171082, "url" : "/bookfair" }, {"id" : 171413, "url" : "/peterpan" }, {"id" : 171496, "url" : "/crewfund" }, {"id" : 171955, "url" : "/reunion" }, {"id" : 172288, "url" : "/HS_transcript_request" }, {"id" : 172799, "url" : "/youngalumni5yearfund" }, {"id" : 173705, "url" : "/HS_service_guidelines" }, {"id" : 174780, "url" : "/serviceforms" }, {"id" : 175905, "url" : "/lower_school" }, {"id" : 177920, "url" : "/COPPA" }, {"id" : 179974, "url" : "/meet_the_faculty" }, {"id" : 181910, "url" : "/2013-14season" }, {"id" : 181911, "url" : "/romeoandjulliet" }, {"id" : 182102, "url" : "/reuniongiving" }, {"id" : 182141, "url" : "/strategicplan" }, {"id" : 183301, "url" : "/alumniboard" }, {"id" : 186064, "url" : "/one-acts" }, {"id" : 186100, "url" : "/fundascholar" }, {"id" : 186902, "url" : "/beyondtheclassroom" }, {"id" : 187155, "url" : "/stem" }, {"id" : 187298, "url" : "/STEMagenda" }, {"id" : 187349, "url" : "/STEMsessions" }, {"id" : 190223, "url" : "/SwingIntoSpring" }, {"id" : 193161, "url" : "/SpringMusical" }, {"id" : 193371, "url" : "/AlumniMatch" }, {"id" : 193379, "url" : "/grandparents" }, {"id" : 194222, "url" : "/VideoContest" }, {"id" : 195559, "url" : "/TeenPrograms" }, {"id" : 199118, "url" : "/CampusPlanning" }, {"id" : 199119, "url" : "/FactSheet" }, {"id" : 199797, "url" : "/BuildingHistory" }, {"id" : 122940, "url" : "/seniors" }, {"id" : 123564, "url" : "/hr" }, {"id" : 125350, "url" : "/collegecounseling-SAT-ACT" }, {"id" : 129595, "url" : "/collegecounselingFAQs" }, {"id" : 130155, "url" : "/librarydatabases" }, {"id" : 131194, "url" : "/off_campus_resources" }, {"id" : 132859, "url" : "/Faculty-StaffResources" }, {"id" : 172390, "url" : "/MS_Electives" }], "userNavLower" : [{"id" : 225880, "title" : "SchoolPress Blogs", "url" : "__pdL('225880','SchoolPress Blogs', '3', '', '', 'True', '0', '', 'default.aspx')", "type" : "portal", "public" : false, "target" : "" }, {"id" : 2262, "title" : "Calendar", "url" : "__pdL('2262','Calendar', '1', '', '', 'True', '0', '', 'default.aspx')", "type" : "application", "public" : true, "target" : "" }, {"id" : 52560, "title" : "Media Gallery", "url" : "__pdL('52560','Media Gallery', '1', '', '', 'True', '0', '', 'default.aspx')", "type" : "application", "public" : true, "target" : "" }, {"id" : 52293, "title" : "Athletics", "url" : "__pdL('52293','Athletics', '1', '', '', 'True', '0', '', 'default.aspx')", "type" : "application", "public" : true, "target" : "" }, {"id" : 52302, "title" : "News", "url" : "__pdL('52302','News', '1', '', '', 'True', '0', '', 'default.aspx')", "type" : "application", "public" : true, "target" : "" }] }</script> 
+
+<input type="hidden" name="__TASKID" value="" /><input type="hidden" name="__TASKNAME" value="" /><input type="hidden" name="__TASKTYPEID" value="" /><input type="hidden" name="__TASKARGS" value="" /><input type="hidden" name="__APPPATH" value="" /><input type="hidden" name="__CLEARHISTORY" value="" /><input type="hidden" name="__SUBTASKID" value="" /><input type="hidden" name="__SUBTASKNAME" value="" /><input type="hidden" name="__PD" value="" /><input type="hidden" name="__PDTIMER" value="" /><input type="hidden" name="__PDAJAXREFRESHFUNC" value="" /><input type="hidden" name="__PDAJAXREFRESHVS" value="" /><input type="hidden" name="__pdVIEWSTATE" value="" /><script language="javascript">theform.__pdVIEWSTATE.value='ADyRu9TTl+FG9iSBF3spE5xGzejUloYAIayjqL8VQ01CQ2a6dxK71x96u0FfZWrsWkePAHggNgzo1wqtVaW7SC6b8wJsvMgb4SdWQkasxVPe+SSY7+2qEBSV2dV1B22lBUJj0DgwkIFTGY/b/zs5TF4Tw1QyiaDR1JLSJgz+YzA0HBM+Q6gg/XrlSb4WLqcFtK/mb95yiVVSfjl8HKq/duKQXOE7I2OMi0tR7uQvzb4dIPhX0MPvMJ0xlB2zSzbcNhldE5mpKJWpsROrY9dR+xDaDn/u3jlL3ZBTm6P3I4GigIalSEpG9H58PAoqsYSRp8KC9g+4f0UcuV2omfi0lv1Kph57OQYA5nz2J9mWr3zAFtF9Mp4vU3cBYCzFRjBB6f+PhdP3lDOlVHYkHxkmhQ5tLzDWt3v+ASuz0qDe/L+KejZLgQDux7xTcWMTdwmzOjsx/7mEhsKqOAWyK9VOwQdpvjAiPwI/ijcpJYBmdd3FsacuMFqLyviJtLqM3RhmI84uH32eqVfaoRzgwpFYhuqQp5LEfCN8ADQ4LBEqacJUQX5l36Gtgp34wqCdEnbvASsJ+GsuHvoeLXm9fc5WXQUdRJnDYCyWKa8D14FCK5OzBYf9mQPk/YNVuqGxjfBV4XL+Df9EGfM7liqEyBE5+qRsUa55OtAA2kzW+QYGreCptsj7TdIxmc+nPySgbtxnjKoZDxRwLFtbvkLFZ4TtxtfM1omcDoO0xDjwxOBRs8P7i/2h3Xb3VPnEMlf700Heh9xZeqZZwWxcnQP66kmWqkpCc2gyE9sB7kiUAn4rJGSjxtVyTqBPZCjyz8O+h190k9Vljvv7DuyMZ7hT32vY3rBXxerh11z3JKZqFz5k8/lvt5WLt5OeX7QXTpyvteeAKyR7jErcNw6YDfv7NJSgNFxLNtPdsOxHQwOVz7xDOT8SgiqnQkU8rtMNuFxQOu1XmCJ1HzWoT5ef6M2g2B+7IA//NUbAZhej9WniMpcpWprl7Iwh1e+bfVDC/c4OBEoYl1gcQR7QTPhF0KZgdIwcoo/kbsFtXa3tHytH6xAX7cXdei4BRnwRkXFsI6/1FauVa8Oo1+l/Oj2Fyspey0cNAOd8uOjKiUT68XhGFwfk8yiM7DpUiiI6cF/yX58uBe+RNIrPgeJ135Kq1emeDlHib7kQyHNQaLiH';</script><div id="app-style"></div><div id="app" class="mp-pusher"></div><script>head.js("//common.myschoolapp.com/ftpimages/999/podium/libs/handlebars/3.0.3/handlebars.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/underscore/1.8.3/underscore-min.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/backbone/1.1.2/backbone-min.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/backbone-app/1.1.2/backbone.app.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/bootstrap/2.0.4/js/bootstrap.min.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/jquery-idle-timer/0.9.2/idle-timer.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/skylo/skylo.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/backbone-app/1.1.2/backbone.app.js?v=11.6.1.17","//common.myschoolapp.com/ftpimages/999/podium/libs/basil/basil.min.js?v=11.6.1.17","/app/src/podium.app.js?v=11.6.1.17","/app/src/utilities/datalibrary.js?v=11.6.1.17","/app/src/utilities/enum.js?v=11.6.1.17","/app/src/utilities/tools.js?v=11.6.1.17","/app/src/utilities/validate.js?v=11.6.1.17","/app/src/utilities/infomessage.js?v=11.6.1.17","/app/src/utilities/infomessagelibrary.js?v=11.6.1.17","/app/src/utilities/datetime.js?v=11.6.1.17","/app/src/utilities/culture.js?v=11.6.1.17","/app/src/utilities/pluginmanager.js?v=11.6.1.17","/app/src/utilities/helppanel.js?v=11.6.1.17","/app/src/utilities/eventtracker.js?v=11.6.1.17","/app/src/modules/shared/base.js?v=11.6.1.17","/app/src/modules/app.js?v=11.6.1.17","/app/src/modules/shared/message.js?v=11.6.1.17","/app/src/modules/sis/shared/officialnote.js?v=11.6.1.17","/app/src/modules/login.js?v=11.6.1.17","/app/src/modules/shared/task.js?v=11.6.1.17","/app/src/modules/system/shared/style.js?v=11.6.1.17","/app/src/modules/LMS/Shared/GroupFinder.js?v=11.6.1.17","/app/src/modules/cms/Shared/content.js?v=11.6.1.17","/app/src/modules/shared/peoplefinder.js?v=11.6.1.17","/app/src/modules/cms/site.js?v=11.6.1.17", function() {podiumApp.initializeApp({AppMode: podiumApp.Utilities.Enum.AppModes.PODIUM, TopTaskId: 3002, IsLive: true})});</script><div id="lPgBnr"></div><div id="lPg" style="width:1170px;"><div style="width: 100%; height: 10px;"><!-- --></div><div id="pdMsg"></div><span id="L_c1i0"><table border="0" cellpadding="0" cellspacing="0" class="pgTbl"><tr><td valign="top"><div class="pgCol" id="pgCol_0" style="text-align:left;width:1170px;"><div style="width:100%;"><div class="" id="cbcb5883" name="cbcb5883" style="width: auto;padding: 0px;"><div class="" id="cb2cb5883" name="cb2cb5883" style=""><div class="" id="cb3cb5883" name="cb3cb5883" style=""><div class=" chInner" id="cb4cb5883" name="cb4cb5883" style=""><div class="maintext" style="width:100%;"><table border="0" cellpadding="0" cellspacing="0" class="tbl"><tr><td valign="top" width="774"><div style="width:100%;"><div id="cbhcboxo" class="chhdr" style="width: auto;" ><div id="cbh2cboxo" class="chhdr2" ><div id="cbh3cboxo" class="chhdr3" ><div id="cbh4cboxo" class="chhdr4" ><div id="cbhtcboxo" class="chhdrtxt">Owner</div><div style="height:0px;clear:both;"><!-- --></div></div></div></div></div><div class="ch" id="cbcboxo" name="cbcboxo" style="width: auto;padding: 5px;"><div class="ch2" id="cb2cboxo" name="cb2cboxo" style=""><div class="ch3" id="cb3cboxo" name="cb3cboxo" style=""><div class="ch4 chInner" id="cb4cboxo" name="cb4cboxo" style=""><div class="maintext" style="width:100%;">No Owners</div></div></div></div></div></div><img src="/podium/images/spacer.gif" border="0" width="1" height="10"><br><div style="width:100%;"><div id="cbhcboxm" class="chhdr" style="width: auto;" ><div id="cbh2cboxm" class="chhdr2" ><div id="cbh3cboxm" class="chhdr3" ><div id="cbh4cboxm" class="chhdr4" ><div id="cbhtcboxm" class="chhdrtxt">Members</div><div style="height:0px;clear:both;"><!-- --></div></div></div></div></div><div class="ch" id="cbcboxm" name="cbcboxm" style="width: auto;padding: 5px;"><div class="ch2" id="cb2cboxm" name="cb2cboxm" style=""><div class="ch3" id="cb3cboxm" name="cb3cboxm" style=""><div class="ch4 chInner" id="cb4cboxm" name="cb4cboxm" style=""><div class="maintext" style="width:100%;"><table border="0" cellpadding="1" cellspacing="0" class="tbl"><tr><td class="maintext">Crissy Cáceres</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_3460243')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_3460243')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z99z99z97z99z101z114z101z115xz103z100z115yz111z114z103', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Christopher Cowan</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2567168')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2567168')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z99z111z119z97z110z53z49z48z49xz99z111z109z99z97z115z116yz110z101z116', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Lynne Cowan</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2566402')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2566402')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z108z121z110z100z101z110z49xz101z97z114z116z104z108z105z110z107yz110z101z116', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">James Cox</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_3460339')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_3460339')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z106z97z109z101z115z99z111z120yz50z48z48z55xz99z111z109z99z97z115z116yz110z101z116', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Nichelle Dowell</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2558141')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2558141')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z110z100z111z119z101z108z108xz103z100z115yz111z114z103', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Mark Hollinger</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2567314')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2567314')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z109z103z104z111z108z108z105z110z103z101z114xz103z109z97z105z108yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Robert Kaplan</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2561717')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2561717')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z98z111z98z107z97z112z108z97z110xz103z109z97z105z108yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Cathy MacNeil-Hollinger</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2566587')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2566587')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z99z109z97z99z110z101z105z108z104z111z108z108z105z110z103z101z114xz103z109z97z105z108yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Greg Marchand</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2567420')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2567420')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z101z103z109z97z114z99z104z97z110z100xz109z97z99yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Vicky Marchand</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2566712')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2566712')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z118z105z99z107z121z109xz115z116z97z114z112z111z119z101z114yz110z101z116', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">HarDisha Miller</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2566752')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2566752')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z104z97z114z100z105z115z104z97xz121z97z104z111z111yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Ransom Miller</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2567449')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2567449')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z114z97z110z115z111z109z109z105z108z108z101z114xz103z109z97z105z108yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Tara Swaminatha</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_2563749')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_2563749')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z116z97z114z97yz115z119z97z109z105z110z97z116z104z97xz103z109z97z105z108yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Kamaya Prince Thompson</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_3296012')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_3296012')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z107z116z104z111z109z112z115z111z110xz103z100z115yz111z114z103', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr><tr><td class="maintext">Jason Waite</td><td class="maintext" width="50" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','ao_4172250')" class="link" title="Make this user owner of the group">owner</a></td><td class="maintext" width="15" align="center"><a href="javascript:__doPostBack('L$c1i0$cb5883$ct5883','rm_4172250')" onClick="return ConfirmClick('Are you sure that you want to remove this member from the group?');" class="maintext" style="text-decoration: none; cursor: pointer;"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/remove.gif" border="0" title="Remove Member" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"><a href="javascript:void(0);" onclick="pdSendEmail('z106z97z115z111z110yz119z97z105z116z101xz97z108z115z116z111z110yz99z111z109', 'normal', '');" class="link"><img src="//common.myschoolapp.com/ftpimages/999/podium/style1/icons/email.gif" border="0" title="" align="absmiddle" /></a></td><td class="maintext" width="15" align="center"></td></tr></table></div></div></div></div></div></div></td><td width="10"><img src="/podium/images/spacer.gif" border="0" width="10" height="5"></td><td width="575" valign="top"><div style="width:100%;"><div id="cbhcboxs" class="chhdr" style="width: auto;" ><div id="cbh2cboxs" class="chhdr2" ><div id="cbh3cboxs" class="chhdr3" ><div id="cbh4cboxs" class="chhdr4" ><div id="cbhtcboxs" class="chhdrtxt">Join User</div><div style="height:0px;clear:both;"><!-- --></div></div></div></div></div><div class="ch" id="cbcboxs" name="cbcboxs" style="width: auto;padding: 5px;"><div class="ch2" id="cb2cboxs" name="cb2cboxs" style=""><div class="ch3" id="cb3cboxs" name="cb3cboxs" style=""><div class="ch4 chInner" id="cb4cboxs" name="cb4cboxs" style=""><div class="maintext" style="width:100%;"><span id="L_c1i0_cb5883_ct5883_cboxs_sch"><table cellpadding="0" cellspacing="2" border="0"><div id="L_c1i0_cb5883_ct5883_cboxs_sch_cboDD"> 
+
+<tr><td class="tblcell">Role:<img src="/podium/images/spacer.gif" border="0" width="5" height="10"></td><td class="tblcell" align="left"><select name="L$c1i0$cb5883$ct5883$cboxs$sch$ddlValrolename$ctl00" class="dropdown"> 
+
+<option value="0">All</option> 
+
+<option value="22988">Activity Group Manager</option> 
+
+<option value="22989">Activity Leader</option> 
+
+<option value="29845">Admissions Manager</option> 
+
+<option value="24271">Admissions Staff</option> 
+
+<option value="21789">Advisor</option> 
+
+<option value="21788">Advisory Group Manager</option> 
+
+<option selected="selected" value="40505">Affinity: American Indian/Native American</option> 
+
+<option value="40506">Affinity: Asian American/Pacific Islander</option> 
+
+<option value="40508">Affinity: Black/African American</option> 
+
+<option value="40507">Affinity: Female</option> 
+
+<option value="40509">Affinity: Latino and/or Hispanic</option> 
+
+<option value="40510">Affinity: LGBTQ</option> 
+
+<option value="40511">Affinity: Middle-Eastern American</option> 
+
+<option value="40513">Affinity: Multiracial/Multiethnic</option> 
+
+<option value="40504">Affinity: Role TEMPLATE </option> 
+
+<option value="40512">Affinity: South Asian</option> 
+
+<option value="13462">All School</option> 
+
+<option value="13469">Alumni</option> 
+
+<option value="22849">Alumni Board</option> 
+
+<option value="13500">Alumni Group Manager</option> 
+
+<option value="23252">ASP Staff</option> 
+
+<option value="16948">Assistant Coach</option> 
+
+<option value="13497">Athletic Group Manager</option> 
+
+<option value="36234">Athletic Roster</option> 
+
+<option value="25304">Attendance Manager</option> 
+
+<option value="29844">Award Manager</option> 
+
+<option value="19648">Board Chair</option> 
+
+<option value="19709">Bobby&#39;s Access</option> 
+
+<option value="13476">Candidate</option> 
+
+<option value="22953">CareFlow Manager</option> 
+
+<option value="27562">Caretaker</option> 
+
+<option value="13501">Class Agent</option> 
+
+<option value="13470">Coach</option> 
+
+<option value="29839">Comments Manager</option> 
+
+<option value="14976">Community Group Manager</option> 
+
+<option value="14975">Community Group Owner</option> 
+
+<option value="13465">Content Editor</option> 
+
+<option value="13490">Content Manager</option> 
+
+<option value="21794">Counselor</option> 
+
+<option value="13491">Data Manager</option> 
+
+<option value="16755">DataShuttle Manager</option> 
+
+<option value="21116">Debate</option> 
+
+<option value="22449">Department Chairs</option> 
+
+<option value="16802">Directory Manager</option> 
+
+<option value="21232">Do Not Contact</option> 
+
+<option value="29841">Dorm Group Manager</option> 
+
+<option value="13492">Educational Consultant</option> 
+
+<option value="13480">Friend</option> 
+
+<option value="20595">GDS Classroom Manager</option> 
+
+<option value="13496">Giving Manager</option> 
+
+<option value="20503">Google™ Analytics Manager</option> 
+
+<option value="22140">Grade Book Manager</option> 
+
+<option value="29843">Grading Manager</option> 
+
+<option value="27406">Grandparent of Alumni</option> 
+
+<option value="26683">Grandparent of Candidate</option> 
+
+<option value="26442">Grandparent of Incoming Student</option> 
+
+<option value="26924">Grandparent of Past Candidate</option> 
+
+<option value="27165">Grandparent of Past Student</option> 
+
+<option value="26201">Grandparent of Student</option> 
+
+<option value="36659">Guest Teacher</option> 
+
+<option value="13472">Incoming Student</option> 
+
+<option value="22135">Inquiry Manager</option> 
+
+<option value="17992">Integration Manager</option> 
+
+<option value="22454">Intern</option> 
+
+<option value="36006">Lead Room Parent</option> 
+
+<option value="39451">Learning Profile Access</option> 
+
+<option value="21792">Learning Profile Manager</option> 
+
+<option value="21793">Learning Profile Staff</option> 
+
+<option value="16789">Library Resource Manager</option> 
+
+<option value="22441">Long-Term Substitute Teacher</option> 
+
+<option value="38147">Magnus Health Manager</option> 
+
+<option value="15382">Mail Merge Manager</option> 
+
+<option value="29838">MML Manager</option> 
+
+<option value="29847">Nurse</option> 
+
+<option value="38934">Nurse/Trainer</option> 
+
+<option value="13498">Official</option> 
+
+<option value="29842">Online Signup Manager</option> 
+
+<option value="13464">Page Manager</option> 
+
+<option value="13468">Parent</option> 
+
+<option value="13488">Parent of Alumni</option> 
+
+<option value="22848">Parent of Alumni Board</option> 
+
+<option value="13485">Parent of Candidate</option> 
+
+<option value="13473">Parent of Incoming Student</option> 
+
+<option value="13486">Parent of Past Candidate</option> 
+
+<option value="13487">Parent of Past Student</option> 
+
+<option value="22007">Parent Volunteer</option> 
+
+<option value="13474">Password Manager</option> 
+
+<option value="22990">Past Activity Leader</option> 
+
+<option value="23030">Past Administrators</option> 
+
+<option value="24272">Past Admissions Staff</option> 
+
+<option value="21790">Past Advisor</option> 
+
+<option value="23253">Past ASP Staff</option> 
+
+<option value="16949">Past Assistant Coach</option> 
+
+<option value="19649">Past Board Chair</option> 
+
+<option value="13477">Past Candidate</option> 
+
+<option value="13483">Past Coach</option> 
+
+<option value="21795">Past Counselor</option> 
+
+<option value="36660">Past Guest Teacher</option> 
+
+<option value="22455">Past Intern</option> 
+
+<option value="36007">Past Lead Room Parent</option> 
+
+<option value="22442">Past Long-Term Substitute Teacher</option> 
+
+<option value="38935">Past Nurse/Trainer</option> 
+
+<option value="13499">Past Official</option> 
+
+<option value="21798">Past Principal</option> 
+
+<option value="23246">Past Room Parent</option> 
+
+<option value="13482">Past Staff</option> 
+
+<option value="22157">Past Staff Sub</option> 
+
+<option value="13484">Past Student</option> 
+
+<option value="13481">Past Teacher</option> 
+
+<option value="13479">Past Trustee</option> 
+
+<option value="23409">Payment Services Manager</option> 
+
+<option value="22991">Pending Activity Leader</option> 
+
+<option value="24273">Pending Admissions Staff</option> 
+
+<option value="21791">Pending Advisor</option> 
+
+<option value="23254">Pending ASP Staff</option> 
+
+<option value="16950">Pending Assistant Coach</option> 
+
+<option value="14048">Pending Coach</option> 
+
+<option value="21796">Pending Counselor</option> 
+
+<option value="36661">Pending Guest Teacher</option> 
+
+<option value="22456">Pending Intern</option> 
+
+<option value="36008">Pending Lead Room Parent</option> 
+
+<option value="22443">Pending Long-Term Substitute Teacher</option> 
+
+<option value="38936">Pending Nurse/Trainer</option> 
+
+<option value="21799">Pending Principal</option> 
+
+<option value="23247">Pending Room Parent</option> 
+
+<option value="22158">Pending Staff Sub</option> 
+
+<option value="13891">Pending Teacher</option> 
+
+<option value="20983">pickAtime Manager</option> 
+
+<option value="13463">Platform Manager</option> 
+
+<option value="22962">Platform Manager - Careflow </option> 
+
+<option value="22970">Platform Mgr</option> 
+
+<option value="21797">Principal</option> 
+
+<option value="37807">Pushpage 2010 Issues Viewer</option> 
+
+<option value="13493">Pushpage Manager</option> 
+
+<option value="19265">Pushpage2010 Editor</option> 
+
+<option value="19266">Pushpage2010 Manager</option> 
+
+<option value="29846">ReEnrollment Manager</option> 
+
+<option value="13494">Registration Manager</option> 
+
+<option value="24274">Registration Reports</option> 
+
+<option value="22547">Resource Board Editor</option> 
+
+<option value="23245">Room Parent</option> 
+
+<option value="29840">Schedule Manager</option> 
+
+<option value="39612">School Forms onMessage</option> 
+
+<option value="39609">School Forms Review</option> 
+
+<option value="22949">School Store Clerk</option> 
+
+<option value="20948">SchoolPress Manager</option> 
+
+<option value="13475">Staff</option> 
+
+<option value="22156">Staff Temp</option> 
+
+<option value="13495">Store Manager</option> 
+
+<option value="13466">Student</option> 
+
+<option value="21819">Sub</option> 
+
+<option value="13489">System Group Manager</option> 
+
+<option value="13467">Teacher</option> 
+
+<option value="27563">Tenleytown Neighbors</option> 
+
+<option value="13478">Trustee</option> 
+
+<option value="20947">Wikispaces Manager</option> 
+
+<option value="29055">Withdrawn Students</option> 
+
+
+
+</select></td></tr><tr><td class="tblcell">Grad Year:<img src="/podium/images/spacer.gif" border="0" width="5" height="10"></td><td class="tblcell" align="left"><select name="L$c1i0$cb5883$ct5883$cboxs$sch$ddlValgrad_year$ctl00" class="dropdown"> 
+
+<option selected="selected" value="0">All</option> 
+
+<option value="2030">2030</option> 
+
+<option value="2029">2029</option> 
+
+<option value="2028">2028</option> 
+
+<option value="2027">2027</option> 
+
+<option value="2026">2026</option> 
+
+<option value="2025">2025</option> 
+
+<option value="2024">2024</option> 
+
+<option value="2023">2023</option> 
+
+<option value="2022">2022</option> 
+
+<option value="2021">2021</option> 
+
+<option value="2020">2020</option> 
+
+<option value="2019">2019</option> 
+
+<option value="2018">2018</option> 
+
+<option value="2017">2017</option> 
+
+<option value="2016">2016</option> 
+
+<option value="2015">2015</option> 
+
+<option value="2014">2014</option> 
+
+<option value="2013">2013</option> 
+
+<option value="2012">2012</option> 
+
+<option value="2011">2011</option> 
+
+<option value="2010">2010</option> 
+
+<option value="2009">2009</option> 
+
+<option value="2008">2008</option> 
+
+<option value="2007">2007</option> 
+
+<option value="2006">2006</option> 
+
+<option value="2005">2005</option> 
+
+<option value="2004">2004</option> 
+
+<option value="2003">2003</option> 
+
+<option value="2002">2002</option> 
+
+<option value="2001">2001</option> 
+
+<option value="2000">2000</option> 
+
+<option value="1999">1999</option> 
+
+<option value="1998">1998</option> 
+
+<option value="1997">1997</option> 
+
+<option value="1996">1996</option> 
+
+<option value="1995">1995</option> 
+
+<option value="1994">1994</option> 
+
+<option value="1993">1993</option> 
+
+<option value="1992">1992</option> 
+
+<option value="1991">1991</option> 
+
+<option value="1990">1990</option> 
+
+<option value="1989">1989</option> 
+
+<option value="1988">1988</option> 
+
+<option value="1987">1987</option> 
+
+<option value="1986">1986</option> 
+
+<option value="1985">1985</option> 
+
+<option value="1984">1984</option> 
+
+<option value="1983">1983</option> 
+
+<option value="1982">1982</option> 
+
+<option value="1981">1981</option> 
+
+<option value="1980">1980</option> 
+
+<option value="1979">1979</option> 
+
+<option value="1978">1978</option> 
+
+<option value="1977">1977</option> 
+
+<option value="1976">1976</option> 
+
+<option value="1975">1975</option> 
+
+<option value="1974">1974</option> 
+
+<option value="1973">1973</option> 
+
+<option value="1972">1972</option> 
+
+<option value="1970">1970</option> 
+
+
+
+</select></td></tr><tr><td class="tblcell">Search In:</td><td class="tblcell"><select name="L$c1i0$cb5883$ct5883$cboxs$sch$ddlSearchIN$ctl00" class="dropdown"> 
+
+<option selected="selected" value="lastname">Last Name</option> 
+
+<option value="firstname">First Name</option> 
+
+<option value="email">Email</option> 
+
+<option value="maidenname">Maiden Name</option> 
+
+<option value="nickname">Nick Name</option> 
+
+<option value="business_name">Business Name</option> 
+
+<option value="pk">User ID</option> 
+
+<option value="conversion_string">Host ID</option> 
+
+
+
+</select><img src="/podium/images/spacer.gif" border="0" width="4" height="1"><span id="L_c1i0_cb5883_ct5883_cboxs_sch_tbSearch" class="maintext"><input name="L$c1i0$cb5883$ct5883$cboxs$sch$tbSearch$txttbSearch" type="text" id="L_c1i0_cb5883_ct5883_cboxs_sch_tbSearch_txttbSearch" class="textbox" /></span></td></tr> 
+
+</div><tr><td colspan="2"><input type="submit" name="L$c1i0$cb5883$ct5883$cboxs$sch$btnSearch" value="Search" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;L$c1i0$cb5883$ct5883$cboxs$sch$btnSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="L_c1i0_cb5883_ct5883_cboxs_sch_btnSearch" title="Search" class="button" onMouseOver="this.className=&#39;buttonover&#39;" onMouseOut="this.className=&#39;button&#39;" style="cursor:pointer;" /><img src="/podium/images/spacer.gif" width="4" height="1"></td></tr></table><img src="/podium/images/spacer.gif" width="1" height="4"><br></span><font class="maintext"><b>No Records</b></font></div></div></div></div></div></div><img src="/podium/images/spacer.gif" border="0" width="1" height="10"><br></td></tr></table></div></div></div></div></div></div></div></td></tr></table></span></div><div id="pdCSecFade" style="display: none;position: absolute;top: 0%;left: 0%;background-color: #000000;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);"><!-- --></div><div id="pdCSec" class="maintext" style="display:none;color:#000000 !important;background-color:#ffffff;border:1px solid #c1c1c1;position:absolute;left:40%;top:40%;"><div id="pdCSecHdr"></div><div id="pdCSecMsg" class="msg" style="padding: 5px 15px 0px 15px;"><!-- --></div><div id="pdCSecCtnt" style="padding:10px 15px 15px 15px;"><!-- --></div></div><script language="javascript" type="text/javascript"> 
+
+function pdCustLoginFunc() {__doPostBack('L$sto','signout')} 
+
+</script> 
+
+<script language="javascript" type="text/javascript">window.setInterval("PDKeepAlive()", 18 * 60 * 1000);</script><script language="javascript">theform.__pdVIEWSTATE.value='ADyRu9TTl+FG9iSBF3spE5xGzejUloYAIayjqL8VQ01CQ2a6dxK71x96u0FfZWrsWkePAHggNgzo1wqtVaW7SC6b8wJsvMgb4SdWQkasxVPe+SSY7+2qEBSV2dV1B22lBUJj0DgwkIFTGY/b/zs5TF4Tw1QyiaDR1JLSJgz+YzA0HBM+Q6gg/XrlSb4WLqcFtK/mb95yiVVSfjl8HKq/duKQXOE7I2OMi0tR7uQvzb4dIPhX0MPvMJ0xlB2zSzbcNhldE5mpKJWpsROrY9dR+xDaDn/u3jlL3ZBTm6P3I4GigIalSEpG9H58PAoqsYSRp8KC9g+4f0UcuV2omfi0lv1Kph57OQYA5nz2J9mWr3zAFtF9Mp4vU3cBYCzFRjBB6f+PhdP3lDOlVHYkHxkmhQ5tLzDWt3v+ASuz0qDe/L+KejZLgQDux7xTcWMTdwmzOjsx/7mEhsKqOAWyK9VOwQdpvjAiPwI/ijcpJYBmdd3FsacuMFqLyviJtLqM3RhmI84uH32eqVfaoRzgwpFYhuqQp5LEfCN8ADQ4LBEqacJUQX5l36Gtgp34wqCdEnbvASsJ+GsuHvoeLXm9fc5WXQUdRJnDYCyWKa8D14FCK5OzBYf9mQPk/YNVuqGxjfBV4XL+Df9EGfM7liqEyBE5+qRsUa55OtAA2kzW+QYGreCptsj7TdIxmc+nPySgbtxnjKoZDxRwLFtbvkLFZ4TtxtfM1omcDoO0xDjwxOBRs8P7i/2h3Xb3VPnEMlf700Heh9xZeqZZwWxcnQP66kmWqkpCc2gyE9sB7kiUAn4rJGSjxtVyTqBPZCjyz8O+h190k9Vljvv7DuyMZ7hT32vY3rBXxerh11z3JKZqFz5k8/lvt5WLt5OeX7QXTpyvteeAKyR7jErcNw6YDfv7NJSgNFxLNtPdsOxHQwOVz7xDOT8SgiqnQkU8rtMNuFxQOu1XmCJ1HzWoT5ef6M2g2B+7IA//NUbAZhej9WniMpcpWprl7Iwh1e+bfVDC/c4OBEoYl1gcQR7QTPhF0KZgdIwcoo/kbsFtXa3tHytH6xAX7cXdei4BRnwRkXFsI6/1FauVa8Oo1+l/Oj2Fyspey0cNAOd8uOjKiUT68XhGFwfk8yiM7DpUiiI6cF/yX58uBe+RNIrPgeJ135Kq1emeDlHib7kQyHNQaLiH';</script><script language="javascript" type="text/javascript">$(document).ready(function() {$("a[href*='default.aspx?t=']").each(function(){if (this.href.indexOf('#') == -1 && this.href.indexOf('javascript:') == -1 && this.href.indexOf('__pdL') == -1 && this.href.indexOf('&rc=') == -1) {this.href = this.href + '&rc=1';}});$('HTML').addClass('site-mode-podium');__pdPostbackFuncs();pdAjaxOnLoad();__pdCheckTransfer();});</script><script language="javascript">SetTaskStay(0);</script><!-- START: InfoSnap Integration --> 
+
+<script type="text/javascript"> 
+
+function openInfoSnap(orgId, actionId) 
+
+{ 
+
+window.open('/podium/InfoSnap/AccountServices.aspx?sid=xQmM4kuibcA=&uid=Jq8Qe+aThE0=&oid=' + orgId + '&aid=' + actionId, '_blank'); 
+
+} 
+
+</script> 
+
+<!-- END: InfoSnap Integration --> 
+
+
+
+<!-- SiteCatalyst code version: G.5. 
+
+Copyright 1997-2003 Omniture, Inc. More info available at 
+
+http://www.omniture.com --><script language="JavaScript"><!-- 
+
+/* You may give each page an identifying name, server, and channel on 
+
+the next lines. */ 
+
+var s_pageName="Manage Roster" 
+
+var s_server="" 
+
+var s_channel="" 
+
+var s_pageType="" 
+
+var s_prop1="All School,Platform Manager,Page Manager,Parent,Staff,Data Manager,Pushpage Manager,Registration Manager,Store Manager,Giving Manager,Athletic Group Manager,Alumni Group Manager,Community Group Manager,Integration Manager,Pushpage2010 Manager,Google™ Analytics Manager,SchoolPress Manager,Resource Board Editor,Affinity: Female" 
+
+var s_prop2="" 
+
+var s_prop3="" 
+
+var s_prop4="" 
+
+var s_prop5="" 
+
+var s_prop6="" 
+
+var s_prop7="" 
+
+var s_prop8="" 
+
+var s_prop9="" 
+
+var s_prop10="" 
+
+/********* INSERT THE DOMAIN AND PATH TO YOUR CODE BELOW ************/ 
+
+//--></script><script language="JavaScript" src="//bbk12e1-cdn.myschoolcdn.com/ftpimages/416/Omniture/s_code_remote.js"></script> 
+
+<!-- End SiteCatalyst code version: G.5. --> 
+
+
+
+
+
+
+
+<script type="text/javascript"> 
+
+//<![CDATA[ 
+
+
+
+var callBackFrameUrl='/podium/WebResource.axd?d=rchyuza30u_LX8PRGIJSpp47TPQItaeb_iZO5jo2mz8VKn4npjkMAre7YYV7YLePLkb7CkbKfqodvf204E2vectkzrHnYdz3ef81GpmkT6E1&t=635792883671809273'; 
+
+WebForm_InitCallback(); 
+
+var Page_ValidationActive = false; 
+
+if (typeof(ValidatorOnLoad) == "function") { 
+
+ValidatorOnLoad(); 
+
+} 
+
+
+
+function ValidatorOnSubmit() { 
+
+if (Page_ValidationActive) { 
+
+return ValidatorCommonOnSubmit(); 
+
+} 
+
+else { 
+
+return true; 
+
+} 
+
+} 
+
+//]]> 
+
+</script> 
+
+</form>
+
+<div id="__AjaxAntiForgery">
+
+<input name="__RequestVerificationToken" type="hidden" value="CYTA67lkD7xFtSmlZZq_tzWRLJppqDii6TiThywQOCYTjA8kbW3MhX3DrEzr2T9550ne3lqTgtrv7DlNMQDbQs_A7DrvVssUAp9I0SijrTg1" /> 
+
+</div>
+
+</body>
+
+</HTML>

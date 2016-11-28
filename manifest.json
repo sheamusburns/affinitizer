@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Affinitizer",
+  "description": "Options for the Selecting All and Removing All from the Affinity Group Pages",
+  "version": "1.0",
+
+
+  "browser_action": {
+   //"default_icon":"lb.png",
+   "default_popup": "popup.html"
+  },
+  "icons": {
+    "16":"lb-16x16.png",
+    "48":"lb-48x48.png",
+    "128":"lb-128x128.png"
+    },
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+   "tabs"
+   ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-2.2.4.min.js", "content.js"]
+    }
+  ]
+}
