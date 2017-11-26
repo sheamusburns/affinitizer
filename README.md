@@ -21,16 +21,16 @@ When you are on your school's site:
 
 
 ## Installation
-Download files, open in your favorite text editor, then make the edit mentioned in the configuration section. Head over to Chrome://extensions in Chrome. Click checkbox to turn on "Developer Mode", then "load unpacked extension". 
+Download files, open in your favorite text editor, then make the edit mentioned in the configuration section. Head over to [Chrome://extensions](Chrome://extensions) in Chrome. Click checkbox to turn on "Developer Mode", then "load unpacked extension". 
 
 
 ## Running
 This tool is ideal for removing everyone from an onCampus group entirely or adding everyone from a role (or other filter) into a group. Head over to your group roster management page and you'll see two options when you click the extension.
 
-<img src='/resources/ManageRoster.png' width='650px' />
+<img src='/resources/ManageRoster.png' width='600px' />
 
 Clicking either of the options will load a confirmation dialogue before the clicker starts running. 
 
-<img src='/resources/WarningAdd.png' width='250px' />
-<img src='/resources/WarningRemove.png' width='250px' />
+<img src='/resources/WarningAdd.png' width='300px' />
+<img src='/resources/WarningRemove.png' width='300px' />
 
