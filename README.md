@@ -3,8 +3,9 @@ A simple automated clicker chrome extension for adding and removing 'group' memb
 
 
 ## Configuration
+Change line 4 in `popup.js` to match your school's myschoolapp.com domain. This will make it so you only get the options to add and remove folks when you're on your school's onCampus site.
 
 
 ## Installation
-Download files, then head over to Chrome://extensions. Click checkbox to turn on "Developer Mode", then "load unpacked extension".
+Download files, open in your favorite text editor, then make the edit mentioned in the configuration section. Head over to Chrome://extensions in Chrome. Click checkbox to turn on "Developer Mode", then "load unpacked extension". 
 
